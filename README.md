@@ -17,12 +17,13 @@ Requires the following packages:
 
 ## 🛠️ About the Program
 
-My progam is simply a tool to help with operations, including the following:
+My progam is simply a tool to help with operations, which will include the following:
 
-- ✅ **startup checklists**
-- ✅ **running/monitoring** checklists
-- ✅ Safe **shutdown procedures**
-- ✅ A **diagnostic tool** to help identify and understand common reactor issues and warnings
+- ✅ **A calculator which will expand from the left side of the UI.**
+- ✅ **startup checklist**
+- ✅ **running/monitoring checklist**
+- ✅ **Safe shutdown procedures**
+- ✅ **A diagnostic tool to help identify and understand common reactor issues and warnings**
 
 > **Note:** This program is a **work in progress**. Nothing is implemented yet, this is just a map of what I'm planning on adding.
 
