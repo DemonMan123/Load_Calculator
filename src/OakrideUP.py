@@ -1,5 +1,6 @@
 import customtkinter
 from src.Panels.CalculatorPanel import CalculatorPanel
+#Oakridge Utility Program
 
 class App(customtkinter.CTk):
     def __init__(self):
