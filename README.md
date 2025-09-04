@@ -20,6 +20,7 @@ My progaam is simply a tool to help with operations, including the following:
 - ✅ A **diagnostic tool** to help identify and understand common reactor issues and warnings
 
 > **Note:** This program is a **work in progress**. Nothing is implemented yet, this is just a map of what I'm planning on adding.
+
 > **Note 2:** Yes, I used chatgpt to write this readme file. I'm too lazy to truly write a readme file myself. The program is written by me however, as chatgpt sucks at coding.
 ---
 
