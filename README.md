@@ -1,7 +1,12 @@
 # Oakridge Utility Tool
 
 A utility tool designed for the **Roblox game "Oakridge Nuclear Power Station"**, which is based on managing and operating an **RBMK-1500 nuclear reactor**.
-
+---
+# 📦 Requirements
+Requires the following packages:
+- **tkinter**
+- **customtkinter**
+> Requirements will be updated if needed
 ---
 
 ## ⚙️ About the Game
