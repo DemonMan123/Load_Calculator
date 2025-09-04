@@ -12,7 +12,7 @@ A utility tool designed for the **Roblox game "Oakridge Nuclear Power Station"**
 
 ## 🛠️ About the Program
 
-My progaam is simply a tool to help with operations, including the following:
+My progam is simply a tool to help with operations, including the following:
 
 - ✅ **startup checklists**
 - ✅ **running/monitoring** checklists
