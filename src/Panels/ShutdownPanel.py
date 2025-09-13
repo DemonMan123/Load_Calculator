@@ -6,8 +6,7 @@ class ShutdownPanel(customtkinter.CTkScrollableFrame):
 
         title = customtkinter.CTkLabel(self, text="Shutdown Checklist", font=("Arial", 18, "bold"))
         title.grid(row=0, column=0, columnspan=2, pady=(10, 20), sticky="n")
-
-        # Full shutdown checklist with sub-steps indicated by '*'
+        
         checklist = [
             "1. Call Grid Controller and click Go Offline.",
             "2. Reduce Reactor Power:\n   * Enter 3400 into Auto Control Rods keypad\n   * Insert control rods symmetrically\n   * Avoid rapid power reduction",
