@@ -49,16 +49,17 @@ class App(customtkinter.CTk):
         self.frames["PostStart"] = PostStartPanel(self)
         self.frames["Startup"] = PreStartupPanel(self)
         self.frames["Shutdown"]= ShutdownPanel(self)
+        # Gonna add more to this list as I add more frames
 
         self.active_frame = ""
         self.ShowActivePanels("Welcome")
-        # Gonna add more to this as I add more frames
     
     def ShowActivePanels(self, name: str):
         if self.active_frame == name:
             # This is to hide the panel and bring the Welcome panel back
             self.frames[name].grid_forget()
             self.frames["Welcome"].grid(row=0, column=1, padx=10, pady=10, sticky="nsw")
+            self.frames["Welcome"].grid_propagate(False)
             self.active_frame = None
         else:
             # This hides the welcome frame when any other frame is clicked, I'm sure there's a better way to do this.
