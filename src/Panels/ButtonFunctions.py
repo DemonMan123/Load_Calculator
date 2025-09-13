@@ -15,13 +15,13 @@ class ButtonActions:
             print("Works")
 
     def on_startup_click(self):
-        print("Startup checklist button clicked!")
+        self.app.ShowActivePanels("Startup")
 
     def on_shutdown_click(self):
-        print("Shutdown checklist button clicked!")
+        self.app.ShowActivePanels("Shutdown")
 
     def on_postStart_click(self):
-        print("Post start button clicked!")
+        self.app.ShowActivePanels("PostStart")
 
     def on_error_events_click(self):
         print("Error events button clicked!")
