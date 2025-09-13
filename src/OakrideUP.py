@@ -1,4 +1,5 @@
-#Oakridge Utility Program created by Demin
+# Oakridge Utility Program created by Demin
+# Test comment
 
 import customtkinter
 from src.Panels.CalculatorPanel import CalculatorPanel
