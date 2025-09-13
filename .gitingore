@@ -1,2 +1,6 @@
+# Ignore all __pycache__ folders anywhere in the project
 __pycache__/
+**/__pycache__/
+
+# Ignore all compiled Python files just in case
 *.pyc
